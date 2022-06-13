@@ -1,9 +1,9 @@
-import { Header } from './components/Header';
-import { Post } from './Post';
+import { Header } from "./components/Header";
+import { Post } from "./components/Post";
 
-import styles from './App.module.css';
-import './global.css';
-import { Sidebar } from './components/Sidebar';
+import styles from "./App.module.css";
+import "./global.css";
+import { Sidebar } from "./components/Sidebar";
 
 export function App() {
   return (
@@ -14,18 +14,11 @@ export function App() {
         <Sidebar />
 
         <main>
-            <Post
-              author="Diego Fernandes"
-              content="Lorem ipsum  dolar sit amet odio aliquam."
-            />
+          <Post author="Pedro Germano" content="Frontend" />
 
-            <Post
-              author="Pedro Germano"
-              content="Frontend"
-          />
+          <Post author="Pedro Germano" content="Frontend" />
         </main>
       </section>
     </>
-  )
+  );
 }
-
